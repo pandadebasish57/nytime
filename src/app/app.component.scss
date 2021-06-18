@@ -1,0 +1,19 @@
+.nyt-app {
+    display: flex;
+
+    .nav-bar {
+        flex: 2;
+        background-color: #333;
+        color: #fff; 
+    }
+
+    .nyt-main {
+        flex: 10;
+
+        .content-section {
+            height: calc(100vh - 150px);
+            overflow-y: auto;
+        }
+    }
+
+}
